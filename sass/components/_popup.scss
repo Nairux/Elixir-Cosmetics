@@ -102,6 +102,17 @@
             text-align: center;
         }
 
+        &__close {
+
+            &:link,
+            &:visited {
+                color: $color-white;
+            }
+    
+    
+    
+        }
+
         &__left{
             width: 100%;
             display: inline-block;

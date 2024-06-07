@@ -1001,6 +1001,9 @@ body {
     width: 75%;
     text-align: center;
   }
+  .popup__close:link, .popup__close:visited {
+    color: #fff;
+  }
   .popup__left {
     width: 100%;
     display: inline-block;
