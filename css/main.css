@@ -1204,7 +1204,7 @@ body {
 }
 @media (max-width: 37.5em) {
   .header__logo-box {
-    left: 1.5rem;
+    left: 0.5rem;
   }
 }
 .header__logo {
