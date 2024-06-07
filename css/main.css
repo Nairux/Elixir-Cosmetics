@@ -966,6 +966,16 @@ body {
   vertical-align: middle;
   padding: 3rem 5rem;
 }
+@media (max-width: 75em) {
+  .popup__right {
+    padding: 1.5rem 5rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .popup__right {
+    padding: 1.5rem 2rem;
+  }
+}
 .popup__img {
   width: 100%;
   display: block;
@@ -998,7 +1008,6 @@ body {
   .popup__right {
     width: 100%;
     display: inline-block;
-    padding: 1.5rem 5rem;
   }
   .popup__img {
     float: left;
