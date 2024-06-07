@@ -29,6 +29,10 @@
         &__logo-box{
         position: absolute;
         left: 3rem;
+
+        @include respond(phone){
+            left: 1.5rem;
+        }
     }
 
     &__logo{
